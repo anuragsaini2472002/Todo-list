@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_div_app{
+  display: grid;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.add_button{
+  margin-bottom: 10px;
+  margin-left: 40px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  width: 130px;
+}
+
+.main_modal{
+  display: grid;
+  grid-template-columns: 1;
+  padding: 5px;
+}
+
+.text{
+  margin: 5px;
+}
+
+.get_todo_div{
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.main_div_todo{
+  padding: 10px;
+  width: 250px;
+  background-color: black;
+  color: aliceblue;
+}
